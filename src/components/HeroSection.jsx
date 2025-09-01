@@ -4,7 +4,6 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 
-
 const HeroSection = () => {
   return (
     <section className="relative px-6 py-20 lg:py-28 overflow-hidden">
@@ -90,7 +89,7 @@ const HeroSection = () => {
             {/* Floating Image */}
             <div className="relative w-full h-full rounded-full overflow-hidden bg-pink-200 shadow-2xl animate-float">
               <Image
-                src={profileImg}
+                src={"/images/image.jpg"}
                 alt="My Profile"
                 width={500}
                 height={500}
