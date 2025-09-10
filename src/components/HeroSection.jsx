@@ -89,7 +89,7 @@ const HeroSection = () => {
             {/* Floating Image */}
             <div className="relative w-full h-full rounded-full overflow-hidden bg-pink-200 shadow-2xl animate-float">
               <Image
-                src={"/images/image.jpg"}
+                src={"/images/profile.jpg"}
                 alt="My Profile"
                 width={500}
                 height={500}
