@@ -29,14 +29,6 @@ const Footer = () => {
           >
             <FaLinkedin size={24} />
           </a>
-          <a
-            href="https://twitter.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-sky-400 transition-transform transform hover:scale-125"
-          >
-            <FaTwitter size={24} />
-          </a>
         </div>
 
         {/* Copyright */}

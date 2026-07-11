@@ -48,31 +48,6 @@ const HeroSection = () => {
             into interactive, user-friendly web experiences with a touch of
             innovation.
           </motion.p>
-
-          {/* Buttons */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.7 }}
-            className="mt-10 flex flex-wrap justify-center lg:justify-start gap-5"
-          >
-            <button className="px-6 py-3 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-semibold rounded-full shadow-lg hover:opacity-90 transition duration-300">
-              Hire Me 🚀
-            </button>
-
-            {/* CV Download Button */}
-            {/* CV Download Button */}
-            <a
-              href="/cv.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-1 py-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full shadow-lg hover:opacity-90 transition duration-300"
-            >
-              <span className="block bg-[#121212] text-white rounded-full px-6 py-2">
-                View My CV 📄
-              </span>
-            </a>
-          </motion.div>
         </motion.div>
 
         {/* Image Section */}
